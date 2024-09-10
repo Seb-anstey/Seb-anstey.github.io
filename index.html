@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">  
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap"  rel="stylesheet">
+    <script src="app.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrightBlog</title>
+</head>
+<body>
+    <header id="main-header">
+    <!-- the content of the header goes here -->
+     <h1 id="logo">BrightBlog</h1>
+     <nav>
+            <ul id="nav-ul">
+                <li><a href="" class="navbutton">Home</a></li>
+                <li><a href="" class="navbutton">About</a></li>
+                <li><a href="" class="navbutton">Contact</a></li>
+            </ul>
+     </nav>
+</header> 
+    <main>
+        <div id="main-content">
+            <aside>
+                <section>
+                    <h4>Filter by Sector</h4>
+                    <nav>
+                        <ul>
+                            <li><a href="">Tech</a></li>
+                            <li><a href="">Forex</a></li>
+                            <li><a href="">Global</a></li>
+                        </ul>
+                    </nav>
+                </section>
+                <section>
+                    <h4>Filter by Stock</h4>
+                    <nav>
+                        <ul>
+                            <li><a href="">Nvidia</a></li>
+                            <li><a href="">Apple</a></li>
+                            <li><a href="">Amazon</a></li>
+                            <li><a href="">Tesla</a></li>
+                            <li><a href="">Alphabet</a></li>
+                        </ul>
+                    </nav>
+                </section>
+            </aside>
+            <div>
+                <article>
+                    <header>
+                        <!--Article header goes here--> 
+                        <h2>Nvidia earnings forecast</h2>
+                        <h3>For upcoming week 26-30th August</h3>
+                    </header>
+                    <main>
+                        <!--Article main content goes here-->
+                        <p>In short order, Nvidia's H100 graphics processing unit (GPU) became the go-to chip used by businesses to run generative AI solutions and train large language models (LLMs). With demand swamping supply, Nvidia has had no trouble meaningfully increasing the price of its H100 GPUs to between $30,000 and $40,000 per chip, or roughly two to three times what key rivals are charging for their AI-data center hardware.</p>
+                        <p>The beauty of higher price points is that they have directly benefited Nvidia's bottom line. Over the previous five reported fiscal quarters, ended April 28, 2024, the company's adjusted gross margin has increased by close to 14 percentage points to 78.35%.</p>
+                        <p>However, headline revenue and profit figures aren't going to tell the complete story come Aug. 28. Even if sales and profits sail past the consensus of analysts, another key figure can portend the end to AI euphoria. I'm talking about Nvidia's adjusted gross margin. Nvidia's "adjusted" gross margin excludes the impact of stock-based compensation, acquisition-related expenses, and a few other costs.</p>
+                        <p>Following the release of Nvidia's fiscal first-quarter results, Huang and his team offered adjusted gross margin guidance for the fiscal second quarter of 75.5% (+/- 50 basis points). This guidance implies a 235- to 335-basis-point decline from the first quarter. While a median expected drop of 285 basis points in adjusted gross margin might sound like much ado about nothing considering the roughly 1,370 basis points Nvidia's adjusted gross margin expanded by over the prior five quarters, it's the reasons behind this forecast decline that are the real concern.</p>
+                        <h4>Short report</h4>
+                        <p>The stock is valued at about 37 times its forward earnings, compared with an average of around 29 for the top six tech companies on the benchmark index that includes the chipmaker.
+                        </p>
+                        <p>its adjusted gross margin likely dropped more than 3 percentage points to 75.8% from the first quarter, burdened by the cost of a production ramp-up to meet growing demand. If Nvidia misses, (investors are) going to sell off every company in AI.
+                        </p>
+                    </main>
+                    <footer>
+                        <img src="https://placebear.com/100/100" alt="Bearish sentiment">
+                        <h3>Posted on 25th August 2024 by BrightBlog</h3>
+                        <p>Sources: <cite><a href="https://www.fool.com/investing/2024/08/24/prediction-aug-28-nvidia-confirm-ai-bubble-burst/" target="_blank">Motley Fool</a>,
+                        <a href="https://www.reuters.com/technology/nvidia-q2-sales-likely-double-even-slight-miss-may-hurt-shares-2024-08-26/" target="_blank">Reuters</a> </cite> </p>
+                    </footer>
+                </article>
+            </div>
+      </div>
+    
+    <!-- main content of the website goes here -->
+
+    <hr>
+    <h2>Sign up for more reports</h2>
+    <form action="" method="">
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="first_name" required>
+        <br>
+
+        <label for="Last_name">Last Name:</label>
+        <input type="text" id="Last_name" name="Last_name" required>
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+
+        <label for="my_stocks">My Stocks:</label>
+        <input type="radio" name="my_stocks" id="Nvidia" value="Nvidia">
+        <label for="Nvidia">Nvidia</label>
+        <input type="radio" name="my_stocks" id="Apple" value="Apple">
+        <label for="Apple">Apple</label>
+        <input type="radio" name="my_stocks" id="Amazon" value="Amazon">
+        <label for="Amazon">Amazon</label>
+        <input type="radio" name="my_stocks" id="other" value="other">
+        <label for="Other">Other</label>
+        <br>
+
+        <label for="Country">Country:</label>
+        <select name="country" id="country">
+            <option value="united_kingdom">United Kingdom</option>
+            <option value="united_states">United States</option>
+            <option value="canada">Canada</option>
+            <option value="australia">Australia</option>
+        </select>
+        <br>
+
+        <label for="bio">Biography:</label>
+        <textarea name="bio" id="bio" cols="10" rows="3"></textarea>
+        <br>
+
+        <input type="checkbox" id="subscribe" name="subscribe">
+        <label for="subscribe">Subscribe for weekly short-sell reports</label>
+        <br>
+
+        <input type="submit" value="Join"> 
+
+    </form>
+    <hr>
+
+    </main>
+    <footer>
+        <h2>BrightBlogSite</h2>
+        <section>
+            <nav>
+                <ul id="footer-ul">
+                    <div> <li><a href="">Home</a></li>
+                        <li><a href="">About us</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Careers</a></li></div>
+                  <div>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Terms and Conditions</a></li>
+                    <li><a href="">Cookie Pollicy</a></li>
+                    <li><a href="">Newsletter</a></li>
+                  </div>
+            </nav>
+        </section>
+    </footer> 
+</body>
+</html>
